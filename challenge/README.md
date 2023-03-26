@@ -21,4 +21,4 @@ IMAGE
 In this model, per the screenshot of the "finished" nn.summary(), I used 80 neurons in the first layer, and 30 in the second. This allowed me to match the output of nn.summary() to the challenge checkpoint in the walkthrough. This also provided the model with a terrifying degree of accuracy out of the gate, which will be discussed.
 
 ## Analysis and Challenges
-Description
+Description check
