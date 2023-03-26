@@ -12,15 +12,15 @@ We set out on this challenge to answer 6 questions posed by the Project. They wi
 
 For the first two: Which variables are considered targets, and which are considered features? These are fairly easy to answer, as we want to know whether a loan's Status is active (approved) or not, and that will be based on the remainder of the application and the information contained within application_df. Those variables are the features, while approval (status) is the target.
 
-IMAGE
+<img width="470" alt="2" src="https://user-images.githubusercontent.com/116296092/227809562-929b1fbf-2d84-44cb-b764-9e54a14d252e.png">
 
 Data that is not considered to be a target or a feature would this case be the Employer Identification Number (EIN) and the Name of the company being considered. Neither of these has any bearing on the application status or whether they were approved, and so their columns were dropped at the beginning of the process to not provide extra noise, potentially confusing the model.
 
-IMAGE
+<img width="891" alt="3" src="https://user-images.githubusercontent.com/116296092/227809570-f945a317-b209-4025-b39a-bb839aa45322.png">
 
 In this model, per the screenshot of the "finished" nn.summary(), I used 80 neurons in the first layer, and 30 in the second. This allowed me to match the output of nn.summary() to the challenge checkpoint in the walkthrough. This also provided the model with a terrifying degree of accuracy out of the gate, which will be discussed.
 
-IMAGE
+<img width="613" alt="4" src="https://user-images.githubusercontent.com/116296092/227809585-128d0355-c746-46a5-baa8-19efcb9cd7d6.png">
 
 I was able to acheive and severely surpass the targeted accuracy rating of 75%. According to the module, the pre code is allegedly less than that, which is where deliverable 3 would have come into play. Perhaps surprisingly, the model came up with a 99.98% accuracy rating on the data fed to it, with an initial loss metric of 2%. This is acceptable for nearly any application I might be using it for in the class, and certainly for many applications outside of it for predictive purposes. Steps were not taken to increase performance, as overfitting is already a concern. Further optimization would hurt the model.
 
