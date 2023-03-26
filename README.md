@@ -8,7 +8,7 @@ The purpose of this project was to showcase the ability to build, train, compile
 
 We set out on this challenge to answer 6 questions posed by the Project. They will be answered in sequential order, with image support for the majority.
 
-IMAGE
+<img width="558" alt="1" src="https://user-images.githubusercontent.com/116296092/227808609-c30ef18a-bab7-4b66-9484-06bc691612eb.png">
 
 For the first two: Which variables are considered targets, and which are considered features? These are fairly easy to answer, as we want to know whether a loan's Status is active (approved) or not, and that will be based on the remainder of the application and the information contained within application_df. Those variables are the features, while approval (status) is the target.
 
